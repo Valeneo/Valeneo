@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Us - Qwerty</title>
+    <title>Qwerty - One Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        section { padding: 50px; min-height: 100vh; }
+        nav a { margin: 10px; text-decoration: none; font-weight: bold; }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Find Us</h1>
+        <h1>Welcome to Qwerty</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Find Us</a>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Find Us</a>
         </nav>
     </header>
     
-    <main>
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: contact@qwerty.com</p>
-            <p>Phone: +123456789</p>
-        </section>
-        
-        <section>
-            <h2>Location</h2>
-            <p>123 Qwerty Street, Tech City, TC 98765</p>
-        </section>
-    </main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Qwerty is a platform that helps you do XYZ. Learn more about us below.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Qwerty is dedicated to making XYZ easier for everyone.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Find Us</h2>
+        <p>Email: contact@qwerty.com</p>
+        <p>Phone: +123456789</p>
+        <p>Address: 123 Qwerty Street, Tech City, TC 98765</p>
+    </section>
     
     <footer>
         <p>&copy; 2025 Qwerty. All rights reserved.</p>
